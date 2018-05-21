@@ -2,7 +2,7 @@ package code;
 
 public class EmpBusinessLogic {	
 	public double annualSalary(EmployeeDetails details) {
-		double annualSalary=details.getSalary()*12;
+		double annualSalary=details.getSalary()*11;
 		return annualSalary;
 	}
 	public double appraisals(EmployeeDetails details) {
