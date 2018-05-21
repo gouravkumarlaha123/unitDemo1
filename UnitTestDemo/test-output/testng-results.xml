@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[The annual Salary of employee with 10000/month =  120000.0]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="86" started-at="2018-02-01T06:27:15Z" finished-at="2018-02-01T06:27:15Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="86" started-at="2018-02-01T06:27:15Z" finished-at="2018-02-01T06:27:15Z">
+      <class name="unitTestSuite.TestAppraisal">
+        <test-method status="PASS" signature="testAppraisalEqualsTen()[pri:0, instance:unitTestSuite.TestAppraisal@174d20a]" name="testAppraisalEqualsTen" duration-ms="16" started-at="2018-02-01T11:57:15Z" finished-at="2018-02-01T11:57:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAppraisalEqualsTen -->
+        <test-method status="PASS" signature="testAppraisalLessThanTen()[pri:0, instance:unitTestSuite.TestAppraisal@174d20a]" name="testAppraisalLessThanTen" duration-ms="0" started-at="2018-02-01T11:57:15Z" finished-at="2018-02-01T11:57:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAppraisalLessThanTen -->
+        <test-method status="PASS" signature="testAppraisalMoreThanTen()[pri:0, instance:unitTestSuite.TestAppraisal@174d20a]" name="testAppraisalMoreThanTen" duration-ms="0" started-at="2018-02-01T11:57:15Z" finished-at="2018-02-01T11:57:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAppraisalMoreThanTen -->
+      </class> <!-- unitTestSuite.TestAppraisal -->
+      <class name="unitTestSuite.TestAnnualSalary">
+        <test-method status="PASS" signature="testAnnualSal()[pri:0, instance:unitTestSuite.TestAnnualSalary@6a2bcfcb]" name="testAnnualSal" duration-ms="0" started-at="2018-02-01T11:57:15Z" finished-at="2018-02-01T11:57:15Z">
+          <reporter-output>
+            <line>
+              <![CDATA[The annual Salary of employee with 10000/month =  120000.0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testAnnualSal -->
+      </class> <!-- unitTestSuite.TestAnnualSalary -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
